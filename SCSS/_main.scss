@@ -1,0 +1,120 @@
+.main {
+  &__section {
+    background-image: url(../IMG/main-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+
+  &__section-content {
+    display: flex;
+    align-items: center;
+  }
+
+  &__section-deliver {
+    padding-top: 162px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 1.08px;
+    text-transform: uppercase;
+    color: #ff5634;
+    margin-bottom: 28px;
+  }
+
+  &__section-title {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 72px;
+    color: #121212;
+    width: 515px;
+    height: 144px;
+    margin-bottom: 16px;
+  }
+
+  &__section-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 30px;
+    color: #656565;
+    margin-bottom: 33px;
+    width: 574px;
+    height: 61px;
+  }
+
+  &__section-text span {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #656565;
+    width: 63px;
+    height: 30px;
+    margin-left: 400px;
+  }
+
+  &__section-btns {
+    display: flex;
+    gap: 27px;
+    border-bottom: 1px solid #cacaca;
+    width: 586px;
+  }
+
+  &__section-btn {
+    padding: 25px 40px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: #121212;
+    width: 205px;
+    height: 73px;
+    border: 1px solid #ededed;
+    box-shadow: 0px 2px 6px rgba(16, 16, 16, 0.04);
+    border-radius: 16px;
+    margin-bottom: 60px;
+  }
+
+  &__section-btn--avtive {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: #ffffff;
+    width: 247px;
+    height: 73px;
+    background: #ff5634;
+    border: 1px solid #ff5634;
+    border-radius: 16px;
+  }
+
+  &__section-list {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    margin-top: 60px;
+  }
+
+  &__section-list-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 66px;
+    color: #121212;
+    margin-bottom: 4px;
+  }
+
+  &__section-list-title span {
+    color: #ff5634;
+    margin-left: -15px;
+  }
+
+  &__section-list-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #656565;
+  }
+
+  &__section-img {
+    padding-top: 162px;
+    margin-left: 50px;
+  }
+}
