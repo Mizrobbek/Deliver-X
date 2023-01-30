@@ -173,5 +173,12 @@
     color: #ffffff;
     cursor: pointer;
     margin-bottom: 270px;
+    transition: all 0.7s ease;
+  }
+
+  &_btn__three:hover {
+    box-shadow: 0 0 3px 0 rgb(255, 255, 255);
+    transition: all 0.7s ease;
+    color: #000;
   }
 }
