@@ -522,6 +522,7 @@ li {
   background: #ff5634;
   border: 1px solid #ff5634;
   border-radius: 16px;
+  transition: all 0.7s ease;
 }
 .main__section-seven-btn:hover {
   box-shadow: 0 0 3px 0 rgb(255, 255, 255);
